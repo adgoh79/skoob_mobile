@@ -1,0 +1,35 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font-size: 250%;
+	font: normal Arial,Helvetica,sans-serif;
+	background: #EFEFEF;
+}
+
+button
+{
+	width:100px;
+    overflow:visible;
+    padding:4px 10px 3px 7px; /* IE6 */
+}
+
+/* -------------------------------------------------------------- page head -------------------------------------------------------- */
+div.headHolder { background-color: #3f3f3f; background: -webkit-gradient(linear, left top, left bottom, from(#282828), to(#3f3f3f)); background:-moz-linear-gradient(top,  #282828,  #3f3f3f); }
+/* -------------------------------------------------------------- top nav -------------------------------------------------------- */ 
+div.topNav { margin: 0 auto; width: 100%; position: relative; background: #456575; padding: 0.213em 0 0.5em; height: 2em; text-align: center; }
+ul.clogin { list-style-type: none; width: 100%; display: inline-block; text-align: right; margin: 0px auto; }
+ul.clogin li { display: inline; padding: 0px 10px; }
+ul.clogin li a { color: #FFF;  padding: 0 10px; }
+ul.clogin li a.cright { padding-right: 0 }
+ul.clogin li a.cleft { border-left: 0 }
+ul.clogin li a:link, ul.clogin li a:visited { text-decoration: none }
+ul.clogin li a:hover, ul.clogin li a:active { text-decoration: underline }
+ul.clogin li a.socialimg { padding:0 0 0 10px; }
+ul.clogin li a img { vertical-align: middle; }
+ul.clogin li.basket span { color: #404040; font-size: 0.75em; }
+ul.clogin li.basket span span { color: #ffffff; font-size: 1.15em; }
+ul.clogin li.welcome { font-size: 0.75em; color: #3dd1eb; visibility: hidden; }
+ul.clogin li.welcome span { color: #3dd1eb; visibility: visible; }
+ul.clogin li.welcome span span { color: #3dd1eb; padding: 0 10px 0 0px; }
